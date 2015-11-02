@@ -36,7 +36,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recen
 
 ## Testing
 
-Tests have not been written yet
+Tests have not been written. Sorry :)
 
 ``` bash
 $ composer test
