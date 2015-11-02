@@ -1,0 +1,44 @@
+{
+    "name": "rentmarket/eleqhant",
+    "description": "Eloquent extension to provide a little bit more functionality. Works for both L4 and L5",
+    "keywords": [
+        "eloquent",
+        "laravel"
+    ],
+    "homepage": "https://github.com/thephprentmarket/eleqhant",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marko Sulamägi",
+            "email": "marko@rentmarket.eu",
+            "homepage": "https://rentmarket.eu",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5.1",
+        "php" : ">=5.3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.*",
+        "scrutinizer/ocular": "~1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rentmarket\\Eleqhant\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Rentmarket\\Eleqhant\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
