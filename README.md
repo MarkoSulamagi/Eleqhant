@@ -2,16 +2,12 @@
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
-[![Build Status][ico-travis]][link-travis]
-[![Coverage Status][ico-scrutinizer]][link-scrutinizer]
-[![Quality Score][ico-code-quality]][link-code-quality]
-[![Total Downloads][ico-downloads]][link-downloads]
 
 I created this small class to adjust eloquent a little bit. When extending the class with your model you will get following functionality:
 
 - All database table names are in plural (`users`).
 - All table ID keys prefix the table name in singular (users table has primary key user_id).
-- If user is logged in then Eleqhant automatically updates table created_by, updated_by and deleted_by columns (if they exist in table)
+- If user is logged in  and edits database data, then Eleqhant automatically updates table created_by, updated_by and deleted_by columns (if they exist in table)
 
 ## Install
 
