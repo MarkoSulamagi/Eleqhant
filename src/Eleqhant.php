@@ -2,7 +2,6 @@
 
 namespace Rentmarket\Eleqhant;
 
-use Eloquent;
 use Auth;
 
 abstract class Eleqhant extends Eloquent {

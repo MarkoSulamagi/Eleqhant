@@ -2,7 +2,6 @@
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
-[![Stable Release](https://img.shields.io/packagist/v/johnbillion/extended-cpts.svg)](https://packagist.org/packages/johnbillion/extended-cpts)
 
 I created this small class to adjust eloquent a little bit. When extending the class with your model you will get following functionality:
 
@@ -60,7 +59,7 @@ If you discover any security related issues, please email :author_email instead 
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/league/eleqhant.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/rentmarket/eleqhant.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 
 [link-packagist]: https://packagist.org/packages/rentmarket/eleqhant
