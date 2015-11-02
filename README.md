@@ -2,6 +2,7 @@
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
+[![Stable Release](https://img.shields.io/packagist/v/johnbillion/extended-cpts.svg)](https://packagist.org/packages/johnbillion/extended-cpts)
 
 I created this small class to adjust eloquent a little bit. When extending the class with your model you will get following functionality:
 
@@ -35,6 +36,8 @@ class User extends Eleqhant
 Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
 
 ## Testing
+
+Tests have not been written yet
 
 ``` bash
 $ composer test
