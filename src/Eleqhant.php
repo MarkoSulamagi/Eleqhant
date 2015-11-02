@@ -4,7 +4,7 @@ namespace Rentmarket\Eleqhant;
 
 use Auth;
 
-abstract class Eleqhant extends Eloquent {
+abstract class Eleqhant extends \Eloquent {
 
     protected $primaryKey = null;
 
